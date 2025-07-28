@@ -1,1 +1,1 @@
-# react-todo
+# A simple React todo app

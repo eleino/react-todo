@@ -1,0 +1,125 @@
+.todo-list-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    box-sizing: border-box;
+    a {
+        border: 1px solid #007bff;
+        border-radius: 4px;
+        padding: 5px;
+    }
+    .category-filter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    border-bottom: 1px dashed #a114ff;
+    
+}
+
+.todo-category {
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    width: 50px;
+}
+
+.todo-title {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.overdue {
+    color: red;
+}
+
+.small-button {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: red;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    img {
+        width: 1.5em;
+        height: 1.5em;
+    }
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.view-todo-container {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    width: 100%;
+    padding-top: 50px;
+}
+.todo-details {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    width: 100%;
+    h2 {
+        margin: 0;
+        padding: 5px 0;
+        font-size: 24px;
+    }
+    p {
+        padding: 5px 0;
+        margin: 0;
+        font-size: 18px;
+    }
+    .todo-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 20px;
+
+    }
+}
+
+.todo-buttons {
+    a {
+        border: 1px solid #007bff;
+        border-radius: 4px;
+        padding: 10px;
+    }
+}
